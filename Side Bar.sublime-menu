@@ -47,7 +47,7 @@
 	},
 
 	{
-		"caption": "Find & Replace…",
+		"caption": "Find in Folder…",
 		"id": "side-bar-find-selected",
 		"command": "side_bar_find_in_selected",
 		"args": {
@@ -114,14 +114,8 @@
 		"id": "side-bar-rename-move-separator"
 	},
 
-	{
-		"caption": "Delete",
-		"id": "side-bar-delete",
-		"command": "side_bar_delete",
-		"args": {
-			"paths": []
-		}
-	},
+	{ "caption": "Delete File", "command": "delete_file", "args": {"files": []} },
+	{ "caption": "Delete Folder", "command": "delete_folder", "args": {"dirs": []} },
 	{
 		"caption": "-",
 		"id": "side-bar-delete-separator"
@@ -219,12 +213,12 @@
 
 		]
 	},
-	
+
 	{
 		"caption": "-",
 		"id": "side-bar-end-separator"
 	},
-	
+
 	{
 		"caption": "zzzzz_side_bar",
 		"id": "zzzzz_side_bar",
