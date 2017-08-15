@@ -1,12 +1,12 @@
 [
-	{
-		"caption": "aaaaa_side_bar",
-		"id": "aaaaa_side_bar",
-		"command": "aaaaa_side_bar",
-		"args": {
-			"paths": []
-		}
-	},
+	// {
+	// 	"caption": "aaaaa_side_bar",
+	// 	"id": "aaaaa_side_bar",
+	// 	"command": "aaaaa_side_bar",
+	// 	"args": {
+	// 		"paths": []
+	// 	}
+	// },
 	{
 		"caption": "-",
 		"id": "side-bar-start-separator"
@@ -32,28 +32,28 @@
 		"id": "side-bar-new-separator"
 	},
 
-	{
-		"caption": "Open Containing Folder",
-		"id": "side-bar-reveal",
-		"command": "side_bar_reveal",
-		"args": {
-			"paths": []
-		}
-	},
+	// {
+	// 	"caption": "Open Containing Folder",
+	// 	"id": "side-bar-reveal",
+	// 	"command": "side_bar_reveal",
+	// 	"args": {
+	// 		"paths": []
+	// 	}
+	// },
 
 	{
 		"caption": "-",
 		"id": "side-bar-edit-open-separator"
 	},
 
-	{
-		"caption": "Find in Folder…",
-		"id": "side-bar-find-selected",
-		"command": "side_bar_find_in_selected",
-		"args": {
-			"paths": []
-		}
-	},
+	// {
+	// 	"caption": "Find in Folder…",
+	// 	"id": "side-bar-find-selected",
+	// 	"command": "side_bar_find_in_selected",
+	// 	"args": {
+	// 		"paths": []
+	// 	}
+	// },
 
 	{
 		"caption": "-",
@@ -101,21 +101,21 @@
 		"id": "side-bar-duplicate-separator"
 	},
 
-	{
-		"caption": "Rename…",
-		"id": "side-bar-rename",
-		"command": "side_bar_rename",
-		"args": {
-			"paths": []
-		}
-	},
+	// {
+	// 	"caption": "Rename…",
+	// 	"id": "side-bar-rename",
+	// 	"command": "side_bar_rename",
+	// 	"args": {
+	// 		"paths": []
+	// 	}
+	// },
 	{
 		"caption": "-",
 		"id": "side-bar-rename-move-separator"
 	},
 
-	{ "caption": "Delete File", "command": "delete_file", "args": {"files": []} },
-	{ "caption": "Delete Folder", "command": "delete_folder", "args": {"dirs": []} },
+	// { "caption": "Delete File", "command": "delete_file", "args": {"files": []} },
+	// { "caption": "Delete Folder", "command": "delete_folder", "args": {"dirs": []} },
 	{
 		"caption": "-",
 		"id": "side-bar-delete-separator"
@@ -125,106 +125,106 @@
 		"caption": "-",
 		"id": "side-bar-refresh-separator"
 	},
-	{
-		"caption": "Project",
-		"id": "side-bar-project",
-		"children": [
-			{
-				"caption": "Edit Project",
-				"id": "side-bar-project-open-file",
-				"command": "side_bar_project_open_file",
-				"args": {
-					"paths": []
-				}
-			},
-			{
-				"command": "prompt_add_folder",
-				"caption": "Add Folder to Project…",
-				"mnemonic": "d"
-			},
-			{
-				"caption": "-",
-				"id": "side-bar-project-open-file-separator"
-			},
-			{
-				"caption": "Hide From Sidebar (In theory exclude from project)",
-				"id": "side-bar-project-item-exclude",
-				"command": "side_bar_project_item_exclude",
-				"args": {
-					"paths": []
-				}
-			},
-			{
-				"caption": "-",
-				"id": "side-bar-project-item-separator"
-			},
-			{
-				"id": "side-bar-project-item-exclude-from-index-item",
-				"command": "side_bar_project_item_exclude_from_index",
-				"args": {
-					"paths": [],
-					"type": "item"
-				}
-			},
-			{
-				"id": "side-bar-project-item-exclude-from-index-relative",
-				"command": "side_bar_project_item_exclude_from_index",
-				"args": {
-					"paths": [],
-					"type": "relative"
-				}
-			},
-			{
-				"id": "side-bar-project-item-exclude-from-index-directory",
-				"command": "side_bar_project_item_exclude_from_index",
-				"args": {
-					"paths": [],
-					"type": "directory"
-				}
-			},
-			{
-				"id": "side-bar-project-item-exclude-from-index-file",
-				"command": "side_bar_project_item_exclude_from_index",
-				"args": {
-					"paths": [],
-					"type": "file"
-				}
-			},
-			{
-				"id": "side-bar-project-item-exclude-from-index-extension",
-				"command": "side_bar_project_item_exclude_from_index",
-				"args": {
-					"paths": [],
-					"type": "extension"
-				}
-			},
-			{
-				"caption": "-",
-				"id": "side-bar-project-item-separator"
-			},
-			{
-				"caption": "Remove Folder from Project",
-				"id": "side-bar-project-item-remove-folder",
-				"command": "side_bar_project_item_remove_folder",
-				"args": {
-					"paths": []
-				}
-			}
+	// {
+	// 	"caption": "Project",
+	// 	"id": "side-bar-project",
+	// 	"children": [
+	// 		{
+	// 			"caption": "Edit Project",
+	// 			"id": "side-bar-project-open-file",
+	// 			"command": "side_bar_project_open_file",
+	// 			"args": {
+	// 				"paths": []
+	// 			}
+	// 		},
+	// 		{
+	// 			"command": "prompt_add_folder",
+	// 			"caption": "Add Folder to Project…",
+	// 			"mnemonic": "d"
+	// 		},
+	// 		{
+	// 			"caption": "-",
+	// 			"id": "side-bar-project-open-file-separator"
+	// 		},
+	// 		{
+	// 			"caption": "Hide From Sidebar (In theory exclude from project)",
+	// 			"id": "side-bar-project-item-exclude",
+	// 			"command": "side_bar_project_item_exclude",
+	// 			"args": {
+	// 				"paths": []
+	// 			}
+	// 		},
+	// 		{
+	// 			"caption": "-",
+	// 			"id": "side-bar-project-item-separator"
+	// 		},
+	// 		{
+	// 			"id": "side-bar-project-item-exclude-from-index-item",
+	// 			"command": "side_bar_project_item_exclude_from_index",
+	// 			"args": {
+	// 				"paths": [],
+	// 				"type": "item"
+	// 			}
+	// 		},
+	// 		{
+	// 			"id": "side-bar-project-item-exclude-from-index-relative",
+	// 			"command": "side_bar_project_item_exclude_from_index",
+	// 			"args": {
+	// 				"paths": [],
+	// 				"type": "relative"
+	// 			}
+	// 		},
+	// 		{
+	// 			"id": "side-bar-project-item-exclude-from-index-directory",
+	// 			"command": "side_bar_project_item_exclude_from_index",
+	// 			"args": {
+	// 				"paths": [],
+	// 				"type": "directory"
+	// 			}
+	// 		},
+	// 		{
+	// 			"id": "side-bar-project-item-exclude-from-index-file",
+	// 			"command": "side_bar_project_item_exclude_from_index",
+	// 			"args": {
+	// 				"paths": [],
+	// 				"type": "file"
+	// 			}
+	// 		},
+	// 		{
+	// 			"id": "side-bar-project-item-exclude-from-index-extension",
+	// 			"command": "side_bar_project_item_exclude_from_index",
+	// 			"args": {
+	// 				"paths": [],
+	// 				"type": "extension"
+	// 			}
+	// 		},
+	// 		{
+	// 			"caption": "-",
+	// 			"id": "side-bar-project-item-separator"
+	// 		},
+	// 		{
+	// 			"caption": "Remove Folder from Project",
+	// 			"id": "side-bar-project-item-remove-folder",
+	// 			"command": "side_bar_project_item_remove_folder",
+	// 			"args": {
+	// 				"paths": []
+	// 			}
+	// 		}
 
-		]
-	},
+	// 	]
+	// },
 
 	{
 		"caption": "-",
 		"id": "side-bar-end-separator"
 	},
 
-	{
-		"caption": "zzzzz_side_bar",
-		"id": "zzzzz_side_bar",
-		"command": "zzzzz_side_bar",
-		"args": {
-			"paths": []
-		}
-	},
+	// {
+	// 	"caption": "zzzzz_side_bar",
+	// 	"id": "zzzzz_side_bar",
+	// 	"command": "zzzzz_side_bar",
+	// 	"args": {
+	// 		"paths": []
+	// 	}
+	// },
 ]
