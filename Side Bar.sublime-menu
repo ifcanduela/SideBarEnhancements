@@ -7,26 +7,29 @@
 	// 		"paths": []
 	// 	}
 	// },
+
 	{
 		"caption": "-",
 		"id": "side-bar-start-separator"
 	},
-	{
-		"caption": "New File…",
-		"id": "side-bar-new-file",
-		"command": "side_bar_new_file",
-		"args": {
-			"paths": []
-		}
-	},
-	{
-		"caption": "New Folder…",
-		"id": "side-bar-new-directory",
-		"command": "side_bar_new_directory",
-		"args": {
-			"paths": []
-		}
-	},
+
+	// {
+	// 	"caption": "New File…",
+	// 	"id": "side-bar-new-file",
+	// 	"command": "side_bar_new_file",
+	// 	"args": {
+	// 		"paths": []
+	// 	}
+	// },
+	// {
+	// 	"caption": "New Folder…",
+	// 	"id": "side-bar-new-directory",
+	// 	"command": "side_bar_new_directory",
+	// 	"args": {
+	// 		"paths": []
+	// 	}
+	// },
+
 	{
 		"caption": "-",
 		"id": "side-bar-new-separator"
@@ -59,6 +62,7 @@
 		"caption": "-",
 		"id": "side-bar-find-separator"
 	},
+
 	{
 		"caption": "Cut",
 		"id": "side-bar-clip-cut",
@@ -84,10 +88,12 @@
 			"in_parent": "False"
 		}
 	},
+
 	{
 		"caption": "-",
 		"id": "side-bar-clip-separator"
 	},
+
 	{
 		"caption": "Duplicate…",
 		"id": "side-bar-duplicate",
@@ -96,6 +102,7 @@
 			"paths": []
 		}
 	},
+
 	{
 		"caption": "-",
 		"id": "side-bar-duplicate-separator"
@@ -109,6 +116,7 @@
 	// 		"paths": []
 	// 	}
 	// },
+
 	{
 		"caption": "-",
 		"id": "side-bar-rename-move-separator"
@@ -116,6 +124,7 @@
 
 	// { "caption": "Delete File", "command": "delete_file", "args": {"files": []} },
 	// { "caption": "Delete Folder", "command": "delete_folder", "args": {"dirs": []} },
+
 	{
 		"caption": "-",
 		"id": "side-bar-delete-separator"
@@ -125,6 +134,7 @@
 		"caption": "-",
 		"id": "side-bar-refresh-separator"
 	},
+
 	// {
 	// 	"caption": "Project",
 	// 	"id": "side-bar-project",
@@ -142,10 +152,12 @@
 	// 			"caption": "Add Folder to Project…",
 	// 			"mnemonic": "d"
 	// 		},
+
 	// 		{
 	// 			"caption": "-",
 	// 			"id": "side-bar-project-open-file-separator"
 	// 		},
+
 	// 		{
 	// 			"caption": "Hide From Sidebar (In theory exclude from project)",
 	// 			"id": "side-bar-project-item-exclude",
@@ -154,10 +166,12 @@
 	// 				"paths": []
 	// 			}
 	// 		},
+
 	// 		{
 	// 			"caption": "-",
 	// 			"id": "side-bar-project-item-separator"
 	// 		},
+
 	// 		{
 	// 			"id": "side-bar-project-item-exclude-from-index-item",
 	// 			"command": "side_bar_project_item_exclude_from_index",
@@ -198,10 +212,12 @@
 	// 				"type": "extension"
 	// 			}
 	// 		},
+
 	// 		{
 	// 			"caption": "-",
 	// 			"id": "side-bar-project-item-separator"
 	// 		},
+
 	// 		{
 	// 			"caption": "Remove Folder from Project",
 	// 			"id": "side-bar-project-item-remove-folder",
